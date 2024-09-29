@@ -1,0 +1,26 @@
+# Ignore environment files
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+*.env
+
+# Database and migrations
+*.sqlite3
+migrations/
+
+# Python virtual environments
+venv/
+*.pyc
+
+# Ignore node_modules folder for Node.js
+node_modules/
